@@ -10,7 +10,7 @@ export function Contact () {
   >
     <Grid 
       container spacing={2}
-      className={'mx-auto max-w-5xl flex h-screen justify-center align-middle'}
+      className={'mx-auto flex h-screen justify-center align-middle'}
       style={{ alignItems: 'center' }}
     >
       <Grid xs={6} >
