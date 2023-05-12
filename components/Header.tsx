@@ -13,25 +13,25 @@ export function Header () {
         <div/>
         <ol className={'flex justify-end'}>
           <li
-            className={`p-2 cursor-pointer`}
+            className={`py-2 w-16 cursor-pointer hover:font-bold`}
             onClick={() => handleNavClick('about')}
           >
             About
           </li>
           <li
-            className={`p-2 cursor-pointer`}
+            className={`py-2 w-24 cursor-pointer hover:font-bold`}
             onClick={() => handleNavClick('experience')}
           >
             Experience
           </li>
           <li
-            className={`p-2 cursor-pointer`}
+            className={`py-2 w-14 cursor-pointer hover:font-bold`}
             onClick={() => handleNavClick('work')}
           >
             Work
           </li>
           <li
-            className={`p-2 cursor-pointer`}
+            className={`py-2 w-16 cursor-pointer hover:font-bold`}
             onClick={() => handleNavClick('contact')}
           >
             Contact
