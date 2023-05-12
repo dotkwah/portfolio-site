@@ -1,4 +1,4 @@
-export function GitHubIcon({ link }) {
+export function GitHubIcon({ link }: { link: string }) {
   return (
     <a href={link} target="_blank" aria-label='Opens GitHub Profile Page' rel="noreferrer">
       <svg 
@@ -13,7 +13,7 @@ export function GitHubIcon({ link }) {
   );
 }
 
-export function LinkedInIcon({ link }) {
+export function LinkedInIcon({ link }: { link: string }) {
   return (
     <a href={link} target="_blank" aria-label='Opens LinkedIn page' rel="noreferrer">
       <svg

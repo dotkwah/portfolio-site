@@ -12,7 +12,10 @@ export default function Home() {
   const [activeSection, setActiveSection] = useState('');
 
   const handleNavClick = (section: any) => {
-    document.getElementById(section).scrollIntoView({ behavior: 'smooth' });
+    const element = document.getElementById(section);
+    if (element !== null) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
   };
 
   return (
