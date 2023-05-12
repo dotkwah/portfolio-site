@@ -2,6 +2,8 @@
 import './globals.css'
 import { ThemeProvider } from '@mui/material/styles'
 import theme from './theme'
+import { AnalyticsContainer } from '../components/Analytics'
+import Head from './head';
 
 export default function RootLayout({
   children,
@@ -10,14 +12,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
-      <head />
+      <Head />
       <ThemeProvider theme={ theme }>
-        <body>{children}</body>
+        <body>
+          {children}
+        </body>
       </ThemeProvider>
+      <AnalyticsContainer />
     </html>
   )
 }
