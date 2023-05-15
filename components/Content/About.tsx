@@ -1,6 +1,7 @@
 import Button from "@mui/material/Button";
 import Grid from "@mui/material/Unstable_Grid2";
 import { ArrowUpRight } from "../Icons";
+import Image from 'next/image';
 
 export function About () {
   return (
@@ -35,7 +36,14 @@ export function About () {
             </Button>
           </a>
         </Grid>
-        <Grid xs={6} >
+        <Grid xs={6}>
+          <Image 
+            src='/ProfilePic.png' 
+            alt='Profile' 
+            width={265} 
+            height={265}
+            className={'rounded-lg float-right ml-4'}
+          />
           <p>
             {`Hello. My name is Khoa Dinh and I am a Frontend Software Engineer.
             My interest in software development started back in 2019 when I was a freshman in college.
