@@ -1,5 +1,3 @@
-import { color } from "@mui/system";
-
 export function GitHubIcon({ link, iconColor }: { link: string, iconColor: string }) {
   return (
     <a href={link} target="_blank" aria-label='Opens GitHub Profile Page' rel="noreferrer">

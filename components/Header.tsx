@@ -15,25 +15,25 @@ export function Header () {
         <Image src='/WebsiteIcon.svg' alt='Logo' width={20} height={20}/>
         <ol className={'flex justify-end'}>
           <li
-            className={`mx-2 my-auto cursor-pointer font-bold hover:text-primaryAccent`}
+            className={`mx-2 my-auto cursor-pointer font-bold hover:text-primaryAccent select-none `}
             onClick={() => handleNavClick('about')}
           >
             About
           </li>
           <li
-            className={`mx-2 my-auto cursor-pointer font-bold hover:text-primaryAccent`}
+            className={`mx-2 my-auto cursor-pointer font-bold hover:text-primaryAccent select-none`}
             onClick={() => handleNavClick('experience')}
           >
             Experience
           </li>
           <li
-            className={`mx-2 my-auto cursor-pointer font-bold hover:text-primaryAccent`}
+            className={`mx-2 my-auto cursor-pointer font-bold hover:text-primaryAccent select-none`}
             onClick={() => handleNavClick('work')}
           >
             Work
           </li>
           <li
-            className={`mx-2 my-auto cursor-pointer font-bold hover:text-primaryAccent`}
+            className={`mx-2 my-auto cursor-pointer font-bold hover:text-primaryAccent select-none`}
             onClick={() => handleNavClick('contact')}
           >
             Contact
