@@ -1,5 +1,6 @@
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Unstable_Grid2";
+import { GitHubIcon } from "../Icons";
 import SkillBubble from "../SkillBubble";
 
 export function Experience () {
@@ -101,9 +102,15 @@ export function Experience () {
                   </h2>
                 </Grid>
                 <Grid xs={8}>
+                  <div className='flex justify-between'>
                   <h2 className='text-lg font-bold'>
                     Discord Music Bot
                   </h2>
+                  <GitHubIcon 
+                      link='https://github.com/dotkwah/discord-music-bot'
+                      iconColor='white'
+                    />
+                  </div>
                   <h3 className='mt-2 text-gray-200'>
                     A discord bot that would allow users to play music in a voice channel for other users to listen along with. The bot has a queue system, and can play from YouTube.
                   </h3>
@@ -138,11 +145,17 @@ export function Experience () {
                   </h2>
                 </Grid>
                 <Grid xs={8}>
+                  <div className='flex justify-between'>
                   <h2
                     className='text-lg font-bold'
                   >
                     GymArc
                   </h2>
+                  <GitHubIcon
+                    link='https://github.com/SeniorDesignProject01/gymarc-application-client-rn'
+                    iconColor='white'
+                  />
+                  </div>
                   <h3 className='mt-2 text-gray-200'>
                     A multi-platform mobile application that allows users to track their workouts and progress.
                   </h3>

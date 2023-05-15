@@ -35,6 +35,7 @@ export function Contact () {
         <div className='mt-3 flex'>
           <GitHubIcon 
             link='https://github.com/dotkwah'
+            iconColor='primary'
           />
           <LinkedInIcon 
             link='https://www.linkedin.com/in/khoa-dinh-b58032199/'
