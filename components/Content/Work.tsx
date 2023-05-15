@@ -14,14 +14,15 @@ export function Work () {
         style={{ alignItems: 'center' }}
       >
         <Grid xs={6}>
-          <h2 className={'text-4xl font-semibold'}>
+          <h2 
+            className={'text-4xl font-semibold'}
+          >
             Work
           </h2>
         </Grid>
         <Grid xs={6}>
           <Box 
             sx={{
-              bgcolor: 'secondary.main',
               borderRadius: '6px',
               padding: '10px',
               display: 'flex',
@@ -50,15 +51,19 @@ export function Work () {
                     fontSize: '12px',
                   }}
                 >
-                  <h2>
+                  <h2
+                    className='text-base'
+                  >
                     July 2022 - Present
                   </h2>
                 </Grid>
                 <Grid xs={8}>
-                  <h2>
+                  <h2
+                    className='text-lg font-bold'
+                  >
                     Software Engineer - StaffWiseLLC
                   </h2>
-                  <h3 className='text-xs mt-2 text-gray-200'>
+                  <h3 className='mt-2 text-gray-200'>
                     Collaborated with engineers in a fast-paced environment to build a web application that allows users to manage their employees and their schedules.
                     Implemted UI designs using React, Redux, and Material UI.
                   </h3>
@@ -86,15 +91,19 @@ export function Work () {
                     fontSize: '12px',
                   }}
                 >
-                  <h2>
+                  <h2
+                    className='text-base'
+                  >
                     February 2021 - November 2021
                   </h2>
                 </Grid>
                 <Grid xs={8}>
-                  <h2>
+                  <h2
+                    className='text-lg font-bold'
+                  >
                     Research Assistant - NIAR
                   </h2>
-                  <h3 className='text-xs mt-2 text-gray-200'>
+                  <h3 className='mt-2 text-gray-200'>
                     Researched additive manufacturing using the cold spray process.
                     Responsible for maintaining FANUC robots along with adding new functionailty.
                     Created robot programs using TP programming language.

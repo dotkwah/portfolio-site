@@ -13,15 +13,14 @@ export function Experience () {
         className={'mx-auto flex h-screen justify-center align-middle'}
         style={{ alignItems: 'center' }}
       >
-        <Grid xs={6} >
+        <Grid xs={6}>
           <h2 className={'text-4xl font-semibold'}>
             Experience
           </h2>
         </Grid>
-        <Grid xs={6} >
+        <Grid xs={6}>
           <Box 
             sx={{
-              bgcolor: 'secondary.main',
               borderRadius: '6px',
               padding: '10px',
             }}
@@ -44,24 +43,32 @@ export function Experience () {
                     fontSize: '12px',
                   }}
                 >
-                  <h2>
+                  <h2
+                    className='text-base'
+                  >
                     Skills
                   </h2>
                 </Grid>
                 <Grid xs={8}>
-                  <h2>
+                  <h2
+                    className='text-lg font-bold'
+                  >
                     Languages
                   </h2>
                   <SkillBubble 
                     skills={['JavaScript', 'TypeScript', 'Python']} 
                   />
-                  <h2>
+                  <h2
+                    className='text-lg font-bold'
+                  >
                     Frontend
                   </h2>
                   <SkillBubble
                     skills={['React', 'React Native', 'Next.js']}
                   />
-                  <h2>
+                  <h2
+                    className='text-lg font-bold'
+                  >
                     Other
                   </h2>
                   <SkillBubble
@@ -70,7 +77,7 @@ export function Experience () {
                 </Grid>
               </Grid>
             </Box>
-            <hr className="border-t-2 mt-10 mb-10 border-primary" />
+            <hr className="border-t-2 mt-6 mb-6 border-primary" />
             <Box
               sx={{
                 color: 'white',
@@ -89,16 +96,16 @@ export function Experience () {
                     fontSize: '12px',
                   }}
                 >
-                  <h2>
+                  <h2 className='text-base'>
                     April 2023
                   </h2>
                 </Grid>
                 <Grid xs={8}>
-                  <h2>
+                  <h2 className='text-lg font-bold'>
                     Discord Music Bot
                   </h2>
-                  <h3 className='text-xs mt-2 text-gray-200'>
-                    A discord bot that would allow users to play music in a voice channel for other users to listen along with.
+                  <h3 className='mt-2 text-gray-200'>
+                    A discord bot that would allow users to play music in a voice channel for other users to listen along with. The bot has a queue system, and can play from YouTube.
                   </h3>
                   <SkillBubble
                     skills={['JavaScript', 'TypeScript', 'DiscordJs']}
@@ -124,15 +131,19 @@ export function Experience () {
                     fontSize: '12px',
                   }}
                 >
-                  <h2>
+                  <h2
+                    className='text-base'
+                  >
                     September 2022
                   </h2>
                 </Grid>
                 <Grid xs={8}>
-                  <h2>
+                  <h2
+                    className='text-lg font-bold'
+                  >
                     GymArc
                   </h2>
-                  <h3 className='text-xs mt-2 text-gray-200'>
+                  <h3 className='mt-2 text-gray-200'>
                     A multi-platform mobile application that allows users to track their workouts and progress.
                   </h3>
                   <SkillBubble

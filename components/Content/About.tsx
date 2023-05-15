@@ -13,7 +13,7 @@ export function About () {
         className={'mx-auto flex h-screen justify-center align-middle'}
         style={{ alignItems: 'center' }}
       >
-        <Grid xs={6} >
+        <Grid xs={6}>
           <h1 className={'pb-2'}>Hello, my name is</h1>
           <h2 className={'text-4xl font-semibold'}>Khoa Dinh.</h2>
           <h3>Frontend Software Engineer</h3>
@@ -23,7 +23,7 @@ export function About () {
               sx={{
                 marginTop: '1rem',
               }}
-              className={'bg-primary'}
+              className={'bg-primaryAccent'}
             >
               <div
                 className='mr-2'

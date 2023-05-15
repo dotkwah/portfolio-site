@@ -26,7 +26,7 @@ export function Contact () {
             sx={{
               marginTop: '1rem',
             }}
-            className={'bg-primary'}
+            className={'bg-primaryAccent'}
           >
             Get in touch
           </Button>
