@@ -22,6 +22,7 @@ export function About () {
               variant="contained"
               sx={{
                 marginTop: '1rem',
+                backgroundColor: '#bf2659'
               }}
               className={'bg-primaryAccent'}
             >
