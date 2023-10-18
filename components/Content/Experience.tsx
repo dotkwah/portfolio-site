@@ -57,12 +57,12 @@ export function Experience () {
                     Languages
                   </h2>
                   <SkillBubble 
-                    skills={['JavaScript', 'TypeScript', 'Python']} 
+                    skills={['JavaScript', 'TypeScript']} 
                   />
                   <h2
                     className='text-lg font-bold'
                   >
-                    Frontend
+                    Frameworks
                   </h2>
                   <SkillBubble
                     skills={['React', 'React Native', 'Next.js']}
@@ -70,10 +70,18 @@ export function Experience () {
                   <h2
                     className='text-lg font-bold'
                   >
-                    Other
+                    Tools
                   </h2>
                   <SkillBubble
-                    skills={['Git', 'GitHub', 'Scrum', 'Clean Architecture', 'TDD', 'DevOps', 'Azure', 'Agile', 'Figma']}
+                    skills={['Git', 'GitHub', 'Azure', 'Figma']}
+                  />
+                  <h2
+                    className='text-lg font-bold'
+                  >
+                    Methodologies
+                  </h2>
+                  <SkillBubble
+                    skills={['Scrum', 'Clean Architecture', 'TDD', 'DevOps', 'Agile']}
                   />
                 </Grid>
               </Grid>
